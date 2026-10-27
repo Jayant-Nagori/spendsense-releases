@@ -1,0 +1,40 @@
+{
+  "name": "SpendSense",
+  "identifier": "com.jayant.spendsense.source",
+  "subtitle": "Personal expense tracker",
+  "description": "Builds of SpendSense. Add this source in SideStore or AltStore to install and get updates.",
+  "sourceURL": "https://raw.githubusercontent.com/JayantNagori-TAP/spendsense-releases/main/altstore-source.json",
+  "iconURL": "https://raw.githubusercontent.com/JayantNagori-TAP/spendsense-releases/main/icon.png",
+  "tintColor": "#D6B97C",
+  "apps": [
+    {
+      "name": "SpendSense",
+      "bundleIdentifier": "com.jayant.spendsense",
+      "developerName": "Jayant Nagori",
+      "subtitle": "Where your money went, privately.",
+      "localizedDescription": "Tracks UPI, bank and card payments from bank SMS (via a Shortcuts automation), asks what each payment was for and whether you split it, tracks investments and Splitwise balances, and answers questions about your money offline or with your own AI key. All data stays encrypted on the device; Face ID app lock.",
+      "iconURL": "https://raw.githubusercontent.com/JayantNagori-TAP/spendsense-releases/main/icon.png",
+      "tintColor": "#D6B97C",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.3",
+          "buildVersion": "4",
+          "date": "2026-10-27T06:32:32Z",
+          "size": 14728656,
+          "downloadURL": "https://github.com/JayantNagori-TAP/spendsense-releases/releases/download/v1.3/SpendSense.ipa",
+          "localizedDescription": "Encrypted backup & restore, updates keep your data, cashback/offer messages no longer ask where you spent, spending by card & bank account, Splitwise import, faster payment pop-up.",
+          "minOSVersion": "17.2"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSFaceIDUsageDescription": "SpendSense uses Face ID to keep your finances private."
+        }
+      }
+    }
+  ],
+  "news": []
+}
