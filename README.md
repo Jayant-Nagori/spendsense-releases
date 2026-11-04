@@ -2,7 +2,7 @@
 
 A personal expense tracker. It catches UPI, bank and card payments from bank SMS and payment-app notifications, asks what each payment was for and whether you split it, and answers questions about your spending. All data stays encrypted on your phone.
 
-This repository only hosts the app downloads. The source code is private.
+This repository hosts the app downloads. The complete source code is open source under the MIT license: [Jayant-Nagori/spendsense](https://github.com/Jayant-Nagori/spendsense).
 
 ## Android
 
